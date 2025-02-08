@@ -5,7 +5,7 @@ const productos = [
     {nombre: 'Carne', precio: 100},
     {nombre: 'Huevos', precio: 10},
     {nombre: 'Frijoles', precio: 15},
-    {nombre: 'Queso', precio: 55}
+    {nombre: 'Queso', precio: 80}
 ]
 
 let productoConImpuesto = [];
