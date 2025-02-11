@@ -1,6 +1,6 @@
 const elementos = [1, 2, 1, 2, 3, 3, 'Hola', 'Adios', 'Hola']
 
-contarOcurrencias = () => {
+contarOcurrencias = (elemento) => {
 
     let ocurrencias = {}
 
