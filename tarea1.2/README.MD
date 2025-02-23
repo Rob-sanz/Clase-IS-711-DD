@@ -20,4 +20,13 @@ Esta es una API básica para gestionar tareas, construida con **Node.js** y **Ex
 1. Clona el repositorio en tu máquina local:
 
    git clone https://github.com/Rob-sanz/Clase-IS-711-DD/tree/main/tarea1.2
-   
+
+
+2. Entra al direcctorio:
+    cd tarea1.2
+
+3. Instalar las dependecian necesarias:
+    npm install
+
+4. Inicia el servidor:
+    npm start
