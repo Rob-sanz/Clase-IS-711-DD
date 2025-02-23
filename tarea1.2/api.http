@@ -1,0 +1,27 @@
+### LISTA DE TAREAS
+GET http://localhost:300/tareas
+
+### BUSCAR POR ID
+GET http://localhost:300/tareas/1
+
+### CREAR NUEVA TAREA
+POST http://localhost:300/tareas
+Content-Type: application/json
+
+{
+  "titulo": "Hacer tarea de API",
+  "descripcion": "Esta es una descripción de al menos 20 caracteres."
+}
+
+### MODIFICAR TAREA 
+PUT http://localhost:300/tareas/2
+Content-Type: application/json
+
+{
+    "titulo": "Lavar platos",
+    "descripcion": "Lavar los patos antes de mi clase en linea",
+    "completada": true
+}
+
+### ELIMINAR TAREA
+DELETE http://localhost:300/tareas/2

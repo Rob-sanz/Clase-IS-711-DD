@@ -1,1 +1,9 @@
-[]
+[
+    {
+      "id": 1,
+      "titulo": "Comprar leche",
+      "descripcion": "Ir al supermercado a comprar leche",
+      "completada": false,
+      "fecha_creacion": "2025-02-22T10:00:00Z"
+    }
+]
